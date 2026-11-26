@@ -43,7 +43,7 @@
       "enabled": true,
       "limit": 30,
       "since_days": 10,
-      "weight": 1.1,
+      "weight": 0.45,
       "half_life_h": 120
     },
     {
@@ -73,7 +73,8 @@
       "gpt", "llm", "saas", "插件", "plugin", "出海", "赚", "revenue",
       "mrr", "passive", "no-code", "chrome extension", "api", "套利"
     ],
-    "block": ["招聘", "hiring", "求职", "we are hiring"],
+   "block": ["招聘", "hiring", "求职", "we are hiring", "gta", "game", "游戏", "emulator", "模拟器", "crack", "破解", "torrent", "盗版", "外挂", "nsfw", "leak", "壁纸"],
+
     "boost_per_hit": 0.12,
     "max_boost": 0.6
   },
@@ -85,8 +86,8 @@
   },
   "monetize": {
     "price_cny": 9.9,
-    "buy_url": "https://afdian.com/a/your-id",
-    "contact": "your@email.com",
+    "buy_url": "https://afdian.com/a/sidehustleradar",
+    "contact": "爱发电私信 afdian.com/a/sidehustleradar",
     "affiliates": [
       {
         "label": "服务器/域名 5 折起（跑这个脚本用）",
