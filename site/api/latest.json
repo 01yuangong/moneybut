@@ -1,38 +1,38 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 1,
+  "issue": 2,
   "day": "2026-11-26",
-  "generated_at": 1795683007,
+  "generated_at": 1795693530,
   "free": [
     {
-      "title": "Marvisak/VIctory — An attempt at running GTA VI on PC",
-      "url": "https://github.com/Marvisak/VIctory",
-      "summary": "An attempt at running GTA VI on PC",
-      "source": "GitHub 新星",
-      "score": 10.8117
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "summary": "",
+      "source": "Hacker News",
+      "score": 5.6439
     },
     {
-      "title": "4lwayz/portwatch-vi — Does GTA VI run on PC yet? A live tracker of community recom",
-      "url": "https://github.com/4lwayz/portwatch-vi",
-      "summary": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
-      "source": "GitHub 新星",
-      "score": 10.6772
+      "title": "Intel One Mono font",
+      "url": "https://github.com/intel/intel-one-mono",
+      "summary": "",
+      "source": "Hacker News",
+      "score": 4.8272
     },
     {
-      "title": "alesha-pro/llm.asm — Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB)",
-      "url": "https://github.com/alesha-pro/llm.asm",
-      "summary": "Qwen3-0.…",
-      "source": "GitHub 新星",
-      "score": 10.4409
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+      "summary": "",
+      "source": "Hacker News",
+      "score": 4.7122
     },
     {
-      "title": "INK-Q/agy-fast — Non-invasive MCP accelerator plugin for Google Antigravity (",
-      "url": "https://github.com/INK-Q/agy-fast",
-      "summary": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) wit…",
-      "source": "GitHub 新星",
-      "score": 10.4025
+      "title": "Tell HN: Lots of Ask HNs again",
+      "url": "https://news.ycombinator.com/item?id=50649864",
+      "summary": "There have been questions about why the &#x2F;ask page ( https:&#x2F;&#x2F;news. ycombinator. com&#x2F;ask ) was running dry of Ask HNs - e. g.…",
+      "source": "Hacker News",
+      "score": 4.3491
     }
   ],
   "paid_count": 14,
-  "subscribe": "https://afdian.com/a/your-id"
+  "subscribe": "https://afdian.com/a/sidehustleradar"
 }
