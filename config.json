@@ -2,7 +2,7 @@
   "site": {
     "name": "副业雷达 / SideHustle Radar",
     "tagline": "每天 3 分钟，只看全世界最会搞钱的人在做什么",
-    "base_url": "https://example.com",
+    "base_url": "https://sidehustle-radar.pages.dev",
     "lang": "zh-CN",
     "timezone": "Asia/Shanghai"
   },
@@ -12,9 +12,9 @@
       "type": "hackernews",
       "label": "Hacker News",
       "enabled": true,
-      "limit": 40,
-      "weight": 1.15,
-      "half_life_h": 14
+      "limit": 60,
+      "weight": 1.1,
+      "half_life_h": 18
     },
     {
       "id": "reddit_sideproject",
@@ -23,8 +23,8 @@
       "sub": "SideProject",
       "enabled": true,
       "limit": 30,
-      "weight": 1.0,
-      "half_life_h": 20
+      "weight": 1.3,
+      "half_life_h": 24
     },
     {
       "id": "reddit_indiehackers",
@@ -33,16 +33,16 @@
       "sub": "indiehackers",
       "enabled": true,
       "limit": 30,
-      "weight": 1.0,
-      "half_life_h": 20
+      "weight": 1.3,
+      "half_life_h": 24
     },
     {
       "id": "gh",
       "type": "github",
       "label": "GitHub 新星",
-      "enabled": true,
+      "enabled": false,
       "limit": 30,
-      "since_days": 10,
+      "since_days": 7,
       "weight": 0.45,
       "half_life_h": 120
     },
@@ -52,8 +52,8 @@
       "label": "少数派",
       "url": "https://sspai.com/feed",
       "enabled": true,
-      "limit": 15,
-      "weight": 0.95,
+      "limit": 20,
+      "weight": 1.1,
       "half_life_h": 36
     },
     {
@@ -62,28 +62,36 @@
       "label": "V2EX 分享创造",
       "url": "https://www.v2ex.com/feed/tab/creative.xml",
       "enabled": true,
-      "limit": 15,
-      "weight": 0.9,
-      "half_life_h": 24
+      "limit": 20,
+      "weight": 1.2,
+      "half_life_h": 30
     }
   ],
   "keywords": {
     "boost": [
-      "副业", "独立开发", "solo", "indie", "自动化", "automation", "ai",
-      "gpt", "llm", "saas", "插件", "plugin", "出海", "赚", "revenue",
-      "mrr", "passive", "no-code", "chrome extension", "api", "套利"
+      "副业", "独立开发", "个人开发", "solo", "indie", "indie hacker", "maker",
+      "bootstrapped", "side project", "自动化", "automation", "月入", "赚钱",
+      "收入", "变现", "收款", "接单", "自由职业", "freelance", "客户", "客单价",
+      "出海", "套利", "revenue", "mrr", "arr", "profit", "pricing", "saas",
+      "subscription", "newsletter", "付费", "订阅", "买断", "shopify", "stripe",
+      "paypal", "creator", "launch", "发布", "上线", "ai", "gpt", "llm", "agent",
+      "插件", "plugin", "chrome extension", "api"
     ],
-   "block": ["招聘", "hiring", "求职", "we are hiring", "gta", "game", "游戏", "emulator", "模拟器", "crack", "破解", "torrent", "盗版", "外挂", "nsfw", "leak", "壁纸", "ask hn", "tell hn", "font", "kernel", "compiler", "rust", "benchmark", "arxiv", "论文", "面试", "leetcode"],
-
-
-    "boost_per_hit": 0.12,
-    "max_boost": 0.6
+    "block": [
+      "招聘", "hiring", "求职", "we are hiring", "gta", "game", "游戏", "steam",
+      "emulator", "模拟器", "rom", "crack", "破解", "wallpaper", "壁纸", "nsfw",
+      "meme", "leak", "leaked", "torrent", "盗版", "外挂", "ask hn", "tell hn",
+      "font", "字体", "kernel", "内核", "compiler", "编译器", "rust", "benchmark",
+      "跑分", "arxiv", "论文", "面试", "leetcode", "security advisory", "cve"
+    ],
+    "boost_per_hit": 0.2,
+    "max_boost": 1.0
   },
   "render": {
     "free_items": 4,
     "paid_items": 14,
     "summary_max_chars": 150,
-    "min_score": 1.5
+    "min_score": 1.2
   },
   "monetize": {
     "price_cny": 9.9,
@@ -91,14 +99,9 @@
     "contact": "爱发电私信 afdian.com/a/sidehustleradar",
     "affiliates": [
       {
-        "label": "服务器/域名 5 折起（跑这个脚本用）",
-        "url": "https://example.com/aff-server",
-        "note": "广告位 · 自用同款"
-      },
-      {
-        "label": "AI API 中转 · 简报自动改写",
-        "url": "https://example.com/aff-api",
-        "note": "广告位"
+        "label": "副业雷达 · 付费会员（每天 15+ 条完整情报）",
+        "url": "https://afdian.com/a/sidehustleradar",
+        "note": "自营"
       }
     ]
   },
