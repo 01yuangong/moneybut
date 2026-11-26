@@ -1,38 +1,38 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 3,
+  "issue": 4,
   "day": "2026-11-26",
-  "generated_at": 1795695669,
+  "generated_at": 1795703341,
   "free": [
     {
-      "title": "Umbra9179/clipboard-history-manager-windows — Free open-source Windows clipboard manager with searchable h",
-      "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
-      "summary": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
-      "source": "GitHub 新星",
-      "score": 3.296
+      "title": "离音 1.7.4 更新适配 iPhone Duo 一个纯本地的音乐播放器（ iPhone / iPad / Apple 芯片 Mac）无内嵌广告、无订阅、无追踪，Wi-Fi 拖歌、APE/FLAC/DSD 10 段均衡器，送一波永久会员码",
+      "url": "https://www.v2ex.com/t/1259300",
+      "summary": "",
+      "source": "V2EX 分享创造",
+      "score": 3.1446
     },
     {
-      "title": "deterministic-machines/deslop-please — Bring (back) sanity to your code",
-      "url": "https://github.com/deterministic-machines/deslop-please",
-      "summary": "Bring (back) sanity to your code",
-      "source": "GitHub 新星",
-      "score": 3.2668
+      "title": "最近顺手弄了个类 toby 的浏览器书签、标签页管理插件",
+      "url": "https://www.v2ex.com/t/1260141",
+      "summary": "",
+      "source": "V2EX 分享创造",
+      "score": 3.1246
     },
     {
-      "title": "danielwh2/sprite-stacking — Agent skill: turn four pixel art views into fake-3D sprites",
-      "url": "https://github.com/danielwh2/sprite-stacking",
-      "summary": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
-      "source": "GitHub 新星",
-      "score": 3.2357
+      "title": "最近在研究土豆姐的 pstack 和 Agent 工程理论，顺手做了个 6 章互动图解网页",
+      "url": "https://www.v2ex.com/t/1260106",
+      "summary": "",
+      "source": "V2EX 分享创造",
+      "score": 3.0096
     },
     {
-      "title": "zero5122/offline-file-converter-windows — Free offline file converter for Windows – convert PDF, docum",
-      "url": "https://github.com/zero5122/offline-file-converter-windows",
-      "summary": "Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.",
-      "source": "GitHub 新星",
-      "score": 3.2203
+      "title": "推特热榜和德州，摸鱼新姿势，让 Agent 和你一起打牌。",
+      "url": "https://www.v2ex.com/t/1260044",
+      "summary": "",
+      "source": "V2EX 分享创造",
+      "score": 2.9781
     }
   ],
-  "paid_count": 14,
+  "paid_count": 5,
   "subscribe": "https://afdian.com/a/sidehustleradar"
 }
