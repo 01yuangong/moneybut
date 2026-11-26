@@ -1,36 +1,36 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 2,
+  "issue": 3,
   "day": "2026-11-26",
-  "generated_at": 1795693530,
+  "generated_at": 1795695669,
   "free": [
     {
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 5.6439
+      "title": "Umbra9179/clipboard-history-manager-windows — Free open-source Windows clipboard manager with searchable h",
+      "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
+      "summary": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
+      "source": "GitHub 新星",
+      "score": 3.296
     },
     {
-      "title": "Intel One Mono font",
-      "url": "https://github.com/intel/intel-one-mono",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 4.8272
+      "title": "deterministic-machines/deslop-please — Bring (back) sanity to your code",
+      "url": "https://github.com/deterministic-machines/deslop-please",
+      "summary": "Bring (back) sanity to your code",
+      "source": "GitHub 新星",
+      "score": 3.2668
     },
     {
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 4.7122
+      "title": "danielwh2/sprite-stacking — Agent skill: turn four pixel art views into fake-3D sprites",
+      "url": "https://github.com/danielwh2/sprite-stacking",
+      "summary": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
+      "source": "GitHub 新星",
+      "score": 3.2357
     },
     {
-      "title": "Tell HN: Lots of Ask HNs again",
-      "url": "https://news.ycombinator.com/item?id=50649864",
-      "summary": "There have been questions about why the &#x2F;ask page ( https:&#x2F;&#x2F;news. ycombinator. com&#x2F;ask ) was running dry of Ask HNs - e. g.…",
-      "source": "Hacker News",
-      "score": 4.3491
+      "title": "zero5122/offline-file-converter-windows — Free offline file converter for Windows – convert PDF, docum",
+      "url": "https://github.com/zero5122/offline-file-converter-windows",
+      "summary": "Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.",
+      "source": "GitHub 新星",
+      "score": 3.2203
     }
   ],
   "paid_count": 14,
