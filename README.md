@@ -1,3 +1,5 @@
+副业雷达 · 每天 3 分钟精选全网搞钱动作：https://afdian.com/a/sidehustleradar
+
 # 副业雷达 SideHustle Radar — 全自动情报简报生产线
 
 一条命令，把全网公开的「副业 / 独立开发 / 自动化赚钱」信息变成：
