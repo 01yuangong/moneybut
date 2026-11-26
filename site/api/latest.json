@@ -1,0 +1,38 @@
+{
+  "site": "副业雷达 / SideHustle Radar",
+  "issue": 1,
+  "day": "2026-11-26",
+  "generated_at": 1795683007,
+  "free": [
+    {
+      "title": "Marvisak/VIctory — An attempt at running GTA VI on PC",
+      "url": "https://github.com/Marvisak/VIctory",
+      "summary": "An attempt at running GTA VI on PC",
+      "source": "GitHub 新星",
+      "score": 10.8117
+    },
+    {
+      "title": "4lwayz/portwatch-vi — Does GTA VI run on PC yet? A live tracker of community recom",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "summary": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "source": "GitHub 新星",
+      "score": 10.6772
+    },
+    {
+      "title": "alesha-pro/llm.asm — Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB)",
+      "url": "https://github.com/alesha-pro/llm.asm",
+      "summary": "Qwen3-0.…",
+      "source": "GitHub 新星",
+      "score": 10.4409
+    },
+    {
+      "title": "INK-Q/agy-fast — Non-invasive MCP accelerator plugin for Google Antigravity (",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "summary": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) wit…",
+      "source": "GitHub 新星",
+      "score": 10.4025
+    }
+  ],
+  "paid_count": 14,
+  "subscribe": "https://afdian.com/a/your-id"
+}

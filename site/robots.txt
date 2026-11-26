@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /paid/
+Disallow: /go/
+Sitemap: https://sidehustle-radar.pages.dev/sitemap.xml
