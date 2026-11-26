@@ -47,7 +47,7 @@ def score_item(raw: dict, cfg: dict, now: int | None = None) -> float:
     boost = min(kw.get("max_boost", 0.6), hits * kw.get("boost_per_hit", 0.12))
 
     base = math.log1p(max(0.0, raw.get("engagement", 0))) * raw.get("weight", 1.0)
-        return round(base * (0.12 if hits == 0 else 1.0) * decay * (1.0 + boost), 4)
+    return round(base * (0.12 if hits == 0 else 1.0) * decay * (1.0 + boost), 4)
 
 
 def extractive_summary(text: str, max_chars: int = 150) -> str:
