@@ -1,0 +1,19 @@
+[Unit]
+Description=SideHustleRadar web (static + go-links + subscribe API)
+After=network.target
+
+[Service]
+Type=simple
+User=moneybot
+WorkingDirectory=/opt/moneybot
+Environment=MONEYBOT_BASE_URL=https://your-domain.com
+Environment=MONEYBOT_DB=/opt/moneybot/data/state.db
+Environment=ADMIN_TOKEN=CHANGE_ME_LONG_RANDOM
+Environment=PORT=8080
+ExecStart=/usr/bin/python3 /opt/moneybot/serve.py --port 8080 --root /opt/moneybot/site
+Restart=always
+RestartSec=3
+MemoryMax=180M
+
+[Install]
+WantedBy=multi-user.target

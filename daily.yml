@@ -1,0 +1,43 @@
+name: daily-issue
+
+# 0 元方案：GitHub Actions 每天定时生成 + 直接发到 Cloudflare Pages
+on:
+  schedule:
+    - cron: "30 23 * * *"   # UTC 23:30 = 北京时间 07:30
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build today's issue
+        env:
+          MONEYBOT_BASE_URL: ${{ vars.BASE_URL }}
+          MONEYBOT_SECRET: ${{ secrets.PAID_SECRET }}
+        run: |
+          python3 main.py run --base-url "$MONEYBOT_BASE_URL"
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site --project-name=sidehustle-radar
+
+      - name: Keep state.db (dedupe memory) between runs
+        run: |
+          git config user.name  "moneybot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -f data/state.db site || true
+          git commit -m "chore: daily issue $(date -u +%F)" || true
+          git push || true

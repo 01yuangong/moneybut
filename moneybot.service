@@ -1,0 +1,18 @@
+[Unit]
+Description=SideHustleRadar daily issue builder
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=moneybot
+WorkingDirectory=/opt/moneybot
+Environment=MONEYBOT_BASE_URL=https://your-domain.com
+Environment=MONEYBOT_DB=/opt/moneybot/data/state.db
+ExecStart=/usr/bin/python3 /opt/moneybot/main.py run --base-url https://your-domain.com
+Nice=10
+MemoryMax=200M
+TimeoutStartSec=300
+
+[Install]
+WantedBy=multi-user.target

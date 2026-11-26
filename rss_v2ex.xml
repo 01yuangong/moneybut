@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>V2EX 分享创造</title><link>https://www.v2ex.com/go/create</link><description>分享创造</description>
+<item>
+  <title>做了个自动抓取「求推荐工具」帖子的小工具，帮自己找需求</title>
+  <link>https://www.v2ex.com/t/1000001</link>
+  <description><![CDATA[<p>只抓公开 RSS，关键词匹配后推送到 Telegram。已经靠它找到两个愿意付费的用户。</p>]]></description>
+</item>
+<item>
+  <title>分享一下我靠信息差做的小生意：公开数据整理成付费表格</title>
+  <link>https://www.v2ex.com/t/1000002</link>
+  <description><![CDATA[<p>数据都是公开的，价值在于整理和更新频率。月费 19 元，目前 80 个订阅。</p>]]></description>
+</item>
+<item>
+  <title>被裁后 3 个月，我的独立产品月收入到 8000 了</title>
+  <link>https://www.v2ex.com/t/1000003</link>
+  <description><![CDATA[<p>复盘：选对 niche、做 SEO、把免费工具当流量入口。</p>]]></description>
+</item>
+<item>
+  <title>[求助] 服务器选 1 核 1G 够用吗</title>
+  <link>https://www.v2ex.com/t/1000004</link>
+  <description><![CDATA[<p>只跑一个静态站和定时脚本，够。</p>]]></description>
+</item>
+</channel></rss>

@@ -1,0 +1,10 @@
+{
+  "items": [
+    {"full_name": "example/newsletter-engine", "html_url": "https://github.com/example/newsletter-engine", "description": "Self-hosted paid newsletter: RSS in, paywalled issues out, Stripe + token auth included.", "stargazers_count": 1840, "forks_count": 210, "created_at_ts": 0, "time_ago_h": 30, "language": "Python", "archived": false},
+    {"full_name": "example/affiliate-link-rotator", "html_url": "https://github.com/example/affiliate-link-rotator", "description": "Edge worker that rotates affiliate links and logs clicks to SQLite.", "stargazers_count": 920, "forks_count": 88, "created_at_ts": 0, "time_ago_h": 52, "language": "TypeScript", "archived": false},
+    {"full_name": "example/rss-digest-bot", "html_url": "https://github.com/example/rss-digest-bot", "description": "Turn any RSS list into a daily Telegram digest with dedupe and scoring.", "stargazers_count": 1530, "forks_count": 172, "created_at_ts": 0, "time_ago_h": 20, "language": "Go", "archived": false},
+    {"full_name": "example/landing-page-factory", "html_url": "https://github.com/example/landing-page-factory", "description": "Generate 100 SEO landing pages from a CSV and deploy to Cloudflare Pages.", "stargazers_count": 760, "forks_count": 140, "created_at_ts": 0, "time_ago_h": 74, "language": "JavaScript", "archived": false},
+    {"full_name": "example/old-dead-project", "html_url": "https://github.com/example/old-dead-project", "description": "Archived experiment.", "stargazers_count": 2100, "forks_count": 300, "created_at_ts": 0, "time_ago_h": 100, "language": "PHP", "archived": true},
+    {"full_name": "example/price-watch", "html_url": "https://github.com/example/price-watch", "description": "Track competitor pricing pages and alert on changes; export to CSV for content arbitrage.", "stargazers_count": 640, "forks_count": 61, "created_at_ts": 0, "time_ago_h": 46, "language": "Python", "archived": false}
+  ]
+}

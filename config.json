@@ -1,0 +1,114 @@
+{
+  "site": {
+    "name": "副业雷达 / SideHustle Radar",
+    "tagline": "每天 3 分钟，只看全世界最会搞钱的人在做什么",
+    "base_url": "https://example.com",
+    "lang": "zh-CN",
+    "timezone": "Asia/Shanghai"
+  },
+  "sources": [
+    {
+      "id": "hn",
+      "type": "hackernews",
+      "label": "Hacker News",
+      "enabled": true,
+      "limit": 40,
+      "weight": 1.15,
+      "half_life_h": 14
+    },
+    {
+      "id": "reddit_sideproject",
+      "type": "reddit",
+      "label": "r/SideProject",
+      "sub": "SideProject",
+      "enabled": true,
+      "limit": 30,
+      "weight": 1.0,
+      "half_life_h": 20
+    },
+    {
+      "id": "reddit_indiehackers",
+      "type": "reddit",
+      "label": "r/indiehackers",
+      "sub": "indiehackers",
+      "enabled": true,
+      "limit": 30,
+      "weight": 1.0,
+      "half_life_h": 20
+    },
+    {
+      "id": "gh",
+      "type": "github",
+      "label": "GitHub 新星",
+      "enabled": true,
+      "limit": 30,
+      "since_days": 10,
+      "weight": 1.1,
+      "half_life_h": 120
+    },
+    {
+      "id": "sspai",
+      "type": "rss",
+      "label": "少数派",
+      "url": "https://sspai.com/feed",
+      "enabled": true,
+      "limit": 15,
+      "weight": 0.95,
+      "half_life_h": 36
+    },
+    {
+      "id": "v2ex",
+      "type": "rss",
+      "label": "V2EX 分享创造",
+      "url": "https://www.v2ex.com/feed/tab/creative.xml",
+      "enabled": true,
+      "limit": 15,
+      "weight": 0.9,
+      "half_life_h": 24
+    }
+  ],
+  "keywords": {
+    "boost": [
+      "副业", "独立开发", "solo", "indie", "自动化", "automation", "ai",
+      "gpt", "llm", "saas", "插件", "plugin", "出海", "赚", "revenue",
+      "mrr", "passive", "no-code", "chrome extension", "api", "套利"
+    ],
+    "block": ["招聘", "hiring", "求职", "we are hiring"],
+    "boost_per_hit": 0.12,
+    "max_boost": 0.6
+  },
+  "render": {
+    "free_items": 4,
+    "paid_items": 14,
+    "summary_max_chars": 150,
+    "min_score": 0.05
+  },
+  "monetize": {
+    "price_cny": 9.9,
+    "buy_url": "https://afdian.com/a/your-id",
+    "contact": "your@email.com",
+    "affiliates": [
+      {
+        "label": "服务器/域名 5 折起（跑这个脚本用）",
+        "url": "https://example.com/aff-server",
+        "note": "广告位 · 自用同款"
+      },
+      {
+        "label": "AI API 中转 · 简报自动改写",
+        "url": "https://example.com/aff-api",
+        "note": "广告位"
+      }
+    ]
+  },
+  "publish": {
+    "out_dir": "site",
+    "retention_issues": 60,
+    "issue_slug_prefix": "issue"
+  },
+  "llm": {
+    "enabled": false,
+    "base_url": "https://api.openai.com/v1",
+    "model": "gpt-4o-mini",
+    "api_key_env": "OPENAI_API_KEY"
+  }
+}

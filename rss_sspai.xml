@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>少数派</title><link>https://sspai.com</link><description>高效工作，品质生活</description>
+<item>
+  <title>用 30 行脚本把每周的行业资讯做成自动简报</title>
+  <link>https://sspai.com/post/90001</link>
+  <description><![CDATA[<p>不需要服务器，GitHub Actions 免费额度就够。抓公开 RSS，去重、打分、生成静态页，最后推到免费托管。</p>]]></description>
+</item>
+<item>
+  <title>独立开发者如何用 Notion + 自动化做一门小生意</title>
+  <link>https://sspai.com/post/90002</link>
+  <description><![CDATA[<p>从选题、模板设计到定价与冷启动，一套可复制的流程，客单价 29 元起。</p>]]></description>
+</item>
+<item>
+  <title>我为什么把博客从动态站换回纯静态</title>
+  <link>https://sspai.com/post/90003</link>
+  <description><![CDATA[<p>成本从每月 60 元降到 0，访问速度反而更快。</p>]]></description>
+</item>
+<item>
+  <title>2024 年值得关注的 12 个效率工具</title>
+  <link>https://sspai.com/post/90004</link>
+  <description><![CDATA[<p>盘点清单，含平替方案。</p>]]></description>
+</item>
+</channel></rss>
