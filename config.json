@@ -73,7 +73,8 @@
       "gpt", "llm", "saas", "插件", "plugin", "出海", "赚", "revenue",
       "mrr", "passive", "no-code", "chrome extension", "api", "套利"
     ],
-   "block": ["招聘", "hiring", "求职", "we are hiring", "gta", "game", "游戏", "emulator", "模拟器", "crack", "破解", "torrent", "盗版", "外挂", "nsfw", "leak", "壁纸"],
+   "block": ["招聘", "hiring", "求职", "we are hiring", "gta", "game", "游戏", "emulator", "模拟器", "crack", "破解", "torrent", "盗版", "外挂", "nsfw", "leak", "壁纸", "ask hn", "tell hn", "font", "kernel", "compiler", "rust", "benchmark", "arxiv", "论文", "面试", "leetcode"],
+
 
     "boost_per_hit": 0.12,
     "max_boost": 0.6
@@ -82,7 +83,7 @@
     "free_items": 4,
     "paid_items": 14,
     "summary_max_chars": 150,
-    "min_score": 0.05
+    "min_score": 1.5
   },
   "monetize": {
     "price_cny": 9.9,
