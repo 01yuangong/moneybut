@@ -239,4 +239,4 @@ def render_go(cfg: dict, affs: list[dict]) -> dict[str, str]:
 
 
 def feed_xml(cfg: dict, issues: list[dict], items_by_issue: dict[int, list[dict]]) -> str:
-    site
+    site = cfg["site"]
