@@ -1,38 +1,17 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 8,
+  "issue": 9,
   "day": "2026-11-27",
-  "generated_at": 1795749002,
+  "generated_at": 1795750872,
   "free": [
     {
-      "title": "OpenHarness – Build customizable agents as single-binary, OpenAI-compatible APIs",
-      "url": "https://openharness.prakhargurunani.com",
-      "summary": "Article URL: https://openharness.prakhargurunani.com Comments URL: https://news.ycombinator.com/item?id=50661000 Points: 3 # Comments: 3",
-      "source": "HN · 赚钱关键词",
-      "score": 4.8383
-    },
-    {
-      "title": "The Last Boring Slide",
-      "url": "https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah",
-      "summary": "Article URL: https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah Comments URL: https://news.ycombinator.com/item?id=50661613 Points: 1 # Comments: 1",
-      "source": "HN · 赚钱关键词",
-      "score": 3.775
-    },
-    {
-      "title": "Show HN: I Built 90s Style Low Cost Ads Concept with Rotate Ad Exchange",
-      "url": "https://rotate.ad",
-      "summary": "Heyy HN community, Many of you heard Ad4Ad or You show my ad i show your ad type of barter ad system!…",
-      "source": "HN · 赚钱关键词",
-      "score": 3.4528
-    },
-    {
-      "title": "How I Made Mezo's Documentation Agent-Ready",
-      "url": "https://0xdezman.cv/blog/how-i-made-mezo-documentation-agent-ready",
-      "summary": "Article URL: https://0xdezman. cv/blog/how-i-made-mezo-documentation-agent-ready/ Comments URL: https://news. ycombinator. com/item?…",
-      "source": "HN · 赚钱关键词",
-      "score": 3.2564
+      "title": "做了款纯本地、买断制的 iOS 日记「超级日记 2.2」：一键录音离线转文字、 iPhone Duo 适配，送 30 个永久版码",
+      "url": "https://www.v2ex.com/t/1260264",
+      "summary": "",
+      "source": "V2EX 分享创造",
+      "score": 3.1571
     }
   ],
-  "paid_count": 2,
+  "paid_count": 0,
   "subscribe": "https://afdian.com/a/sidehustleradar"
 }
