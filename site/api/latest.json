@@ -1,9 +1,38 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 2,
+  "issue": 3,
   "day": "2026-11-27",
-  "generated_at": 1795752349,
-  "free": [],
-  "paid_count": 0,
+  "generated_at": 1795753749,
+  "free": [
+    {
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "summary": "",
+      "source": "Hacker News",
+      "score": 6.4312
+    },
+    {
+      "title": "Hard Drive pricing has gotten bad",
+      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up",
+      "summary": "",
+      "source": "Hacker News",
+      "score": 6.1523
+    },
+    {
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+      "summary": "",
+      "source": "Hacker News",
+      "score": 5.1796
+    },
+    {
+      "title": "Google will show solo Android developers' phone numbers and addresses",
+      "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+      "summary": "",
+      "source": "Hacker News",
+      "score": 5.0891
+    }
+  ],
+  "paid_count": 7,
   "subscribe": "https://afdian.com/a/sidehustleradar"
 }
