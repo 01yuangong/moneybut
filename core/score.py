@@ -2,7 +2,7 @@
 
 打分 = 源权重 × log(互动量) × 时间衰减 × 关键词加成
 去重 = URL 规范化哈希 + 标题 Jaccard 相似度（防同一新闻多平台重复）
-摘要 = 抽取式（首句 + 关键句），可选接 LLM 改写（默认关闭）
+摘要 = 抽取式（首句 + 关键句），可选接 LLM 改写成「能抄的动作」
 """
 from __future__ import annotations
 
@@ -66,25 +66,31 @@ def extractive_summary(text: str, max_chars: int = 150) -> str:
 
 
 def llm_polish(items: list[dict], cfg: dict) -> list[dict]:
-    """可选：用 OpenAI 兼容接口把摘要改写成中文一句话点评。
+    """用 OpenAI 兼容接口(默认 DeepSeek)把每条改写成「能抄的动作」。
 
-    没配 key 就原样返回——脚本永远不会因为缺 key 挂掉，
-    也不会偷偷烧掉老板的钱。
+    没配 key 就原样返回——脚本永远不会因为缺 key 挂掉。
+    输出格式：靠什么赚钱 ｜ 第一步做什么 ｜ 难度
     """
     conf = cfg.get("llm", {})
     key = os.environ.get(conf.get("api_key_env", "OPENAI_API_KEY"), "")
     if not conf.get("enabled") or not key or not items:
         return items
+    rows = [{"i": i, "t": it["title"], "d": it.get("summary") or it["url"]}
+            for i, it in enumerate(items)]
     payload = {
-        "model": conf.get("model", "gpt-4o-mini"),
-        "temperature": 0.3,
+        "model": conf.get("model", "deepseek-chat"),
+        "temperature": 0.2,
         "messages": [
-            {"role": "system", "content": "你是中文科技编辑，把每条标题+摘要压缩成一句 40 字内、"
-                                          "点明“这东西能怎么赚钱/怎么用”的中文点评。输出 JSON 数组，"
-                                          "每项 {\"i\": 序号, \"s\": 点评}。"},
-            {"role": "user", "content": json.dumps(
-                [{"i": i, "t": it["title"], "d": it["summary"]} for i, it in enumerate(items)],
-                ensure_ascii=False)},
+            {"role": "system", "content":
+                "你是中文副业情报编辑，读者是想用业余时间赚到第一笔钱的人。"
+                "对每条素材，输出一个 JSON 对象，字段："
+                "why（它靠什么赚钱，必须是具体的钱从谁口袋来，不超过 28 个汉字）、"
+                "how（普通人今天就能做的一个具体动作，要写清在哪个平台、做什么，不超过 28 个汉字）、"
+                "hard（难度，只能是 低 / 中 / 高 三个字之一）。"
+                "判断不了赚钱方式时，why 写「暂无变现路径」、hard 写「高」。"
+                "只输出 JSON，不要任何解释。"},
+            {"role": "user", "content": "输出 JSON 数组，每项 {\"i\":序号,\"why\":\"...\",\"how\":\"...\",\"hard\":\"...\"}：\n"
+                                        + json.dumps(rows, ensure_ascii=False)},
         ],
     }
     try:
@@ -93,16 +99,27 @@ def llm_polish(items: list[dict], cfg: dict) -> list[dict]:
             data=json.dumps(payload).encode(),
             headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
         )
-        with urllib.request.urlopen(req, timeout=40) as r:
+        with urllib.request.urlopen(req, timeout=60) as r:
             body = json.loads(r.read())
         txt = body["choices"][0]["message"]["content"]
         txt = txt[txt.find("["): txt.rfind("]") + 1]
         for row in json.loads(txt):
-            i = int(row["i"])
-            if 0 <= i < len(items) and row.get("s"):
-                items[i]["comment"] = str(row["s"])[:80]
+            i = int(row.get("i", -1))
+            if not (0 <= i < len(items)):
+                continue
+            why = str(row.get("why", "")).strip()[:40]
+            how = str(row.get("how", "")).strip()[:40]
+            hard = str(row.get("hard", "")).strip()[:2]
+            if why:
+                parts = [why]
+                if how:
+                    parts.append(f"第一步：{how}")
+                if hard:
+                    parts.append(f"难度{hard}")
+                items[i]["comment"] = " ｜ ".join(parts)
     except Exception as e:  # noqa: BLE001
-        items and items[0].setdefault("_llm_error", f"{type(e).__name__}: {e}")
+        if items:
+            items[0].setdefault("_llm_error", f"{type(e).__name__}: {e}")
     return items
 
 
