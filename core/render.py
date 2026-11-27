@@ -239,4 +239,49 @@ def render_go(cfg: dict, affs: list[dict]) -> dict[str, str]:
 
 
 def feed_xml(cfg: dict, issues: list[dict], items_by_issue: dict[int, list[dict]]) -> str:
-    site = cfg["site"]
+    name = cfg["site"].get("name", "")
+    return '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>' + name + '</title></channel></rss>'
+
+    def latest_json(cfg: dict, issue: dict, items_free: list[dict], paid_count: int) -> str:
+    return json.dumps({
+        "site": cfg["site"]["name"],
+        "issue": issue["issue_no"],
+        "day": issue["day"],
+        "generated_at": int(time.time()),
+        "free": [{"title": i["title"], "url": i["url"], "summary": i.get("summary", ""),
+                  "source": i.get("source_label", ""), "score": i["score"]} for i in items_free],
+        "paid_count": paid_count,
+        "subscribe": cfg["monetize"].get("buy_url", ""),
+    }, ensure_ascii=False, indent=2)
+
+
+def robots_txt(cfg: dict) -> str:
+    return (f"User-agent: *\nAllow: /\nDisallow: /paid/\nDisallow: /go/\n"
+            f"Sitemap: {cfg['site']['base_url']}/sitemap.xml\n")
+
+
+def sitemap_xml(cfg: dict, issue_nos: list[int]) -> str:
+    base = cfg["site"]["base_url"].rstrip("/")
+    urls = [f"{base}/", f"{base}/archive.html", f"{base}/about.html"]
+    urls += [f"{base}/issues/issue-{n:04d}.html" for n in issue_nos]
+    return ('<?xml version="1.0" encoding="UTF-8"?>'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+            + "".join(f"<url><loc>{esc(u)}</loc></url>" for u in urls)
+            + "</urlset>")
+
+
+def issue_markdown(cfg: dict, issue: dict, items_free: list[dict], items_paid: list[dict]) -> str:
+    m = cfg["monetize"]
+    head = [f'# {cfg["site"]["name"]} · 第{issue["issue_no"]:04d}期（{issue["day"]}）', ""]
+    rows = [line for idx, it in enumerate(items_free, 1) for line in (
+        f'**{idx}. {it["title"]}**',
+        f'> {it.get("comment") or it.get("summary") or "（原文无摘要，点链接看原帖）"}',
+        f'> 来源：{it.get("source_label","")} · <{it["url"]}>',
+        "",)]
+    tail = ["---", f'🔒 还有 {len(items_paid)} 条在付费版，￥{m.get("price_cny",39)}/月：'
+            f'{m.get("buy_url","")}', ""] if items_paid else []
+    return "\n".join(head + rows + tail)
+
+
+
+            
