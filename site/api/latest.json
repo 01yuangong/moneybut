@@ -1,38 +1,24 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 5,
+  "issue": 6,
   "day": "2026-11-27",
-  "generated_at": 1795738858,
+  "generated_at": 1795739061,
   "free": [
     {
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "title": "The USAID Files",
+      "url": "https://reclaimthenet.org/usaid-files",
       "summary": "",
       "source": "Hacker News",
-      "score": 6.7044
+      "score": 2.5284
     },
     {
-      "title": "Notion's official MCP inject hidden upsell instructions into agent context",
-      "url": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into",
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
       "summary": "",
       "source": "Hacker News",
-      "score": 4.1698
-    },
-    {
-      "title": "OpenAI may be in cost control mode",
-      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 4.0749
-    },
-    {
-      "title": "Top-cited AI scientists at four US companies compared",
-      "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 3.8817
+      "score": 2.1062
     }
   ],
-  "paid_count": 6,
+  "paid_count": 0,
   "subscribe": "https://afdian.com/a/sidehustleradar"
 }
