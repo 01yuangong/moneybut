@@ -1,119 +1,60 @@
 {
   "site": {
-    "name": "副业雷达 / SideHustle Radar",
-    "tagline": "每天 3 分钟，只看全世界最会搞钱的人在做什么",
+    "name": "搞钱雷达",
+    "tagline": "每天 3 分钟，看国内谁在赚钱、怎么赚的",
     "base_url": "https://sidehustle-radar.pages.dev",
     "lang": "zh-CN",
     "timezone": "Asia/Shanghai"
   },
   "sources": [
-    {
-      "id": "hn",
-      "type": "hackernews",
-      "label": "Hacker News",
-      "enabled": true,
-      "limit": 60,
-      "weight": 1.1,
-      "half_life_h": 18
-    },
-    {
-      "id": "hn_money",
-      "type": "rss",
-      "label": "HN · 赚钱关键词",
-      "url": "https://hnrss.org/newest?q=MRR+OR+revenue+OR+%22side+project%22+OR+%22paying+customers%22+OR+%22I+built%22",
-      "enabled": true,
-      "limit": 25,
-      "weight": 1.5,
-      "half_life_h": 30
-    },
-    {
-      "id": "reddit_sideproject",
-      "type": "reddit",
-      "label": "r/SideProject",
-      "sub": "SideProject",
-      "enabled": true,
-      "limit": 30,
-      "weight": 1.3,
-      "half_life_h": 24
-    },
-    {
-      "id": "reddit_indiehackers",
-      "type": "reddit",
-      "label": "r/indiehackers",
-      "sub": "indiehackers",
-      "enabled": true,
-      "limit": 30,
-      "weight": 1.3,
-      "half_life_h": 24
-    },
-    {
-      "id": "gh",
-      "type": "github",
-      "label": "GitHub 新星",
-      "enabled": false,
-      "limit": 30,
-      "since_days": 7,
-      "weight": 0.45,
-      "half_life_h": 120
-    },
-    {
-      "id": "sspai",
-      "type": "rss",
-      "label": "少数派",
-      "url": "https://sspai.com/feed",
-      "enabled": true,
-      "limit": 20,
-      "weight": 1.1,
-      "half_life_h": 36
-    },
-    {
-      "id": "v2ex",
-      "type": "rss",
-      "label": "V2EX 分享创造",
+    { "id": "v2ex", "type": "rss", "label": "V2EX · 分享创造",
       "url": "https://www.v2ex.com/feed/tab/creative.xml",
-      "enabled": true,
-      "limit": 20,
-      "weight": 1.2,
-      "half_life_h": 30
-    }
+      "enabled": true, "limit": 25, "weight": 1.6, "half_life_h": 30 },
+    { "id": "sspai", "type": "rss", "label": "少数派",
+      "url": "https://sspai.com/feed",
+      "enabled": true, "limit": 20, "weight": 1.2, "half_life_h": 36 },
+    { "id": "huxiu", "type": "rss", "label": "虎嗅",
+      "url": "https://www.huxiu.com/rss/0.xml",
+      "enabled": true, "limit": 20, "weight": 1.2, "half_life_h": 36 },
+    { "id": "kr36", "type": "rss", "label": "36氪",
+      "url": "https://36kr.com/feed",
+      "enabled": true, "limit": 20, "weight": 1.1, "half_life_h": 24 },
+    { "id": "ruanyf", "type": "rss", "label": "阮一峰的网络日志",
+      "url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "enabled": true, "limit": 10, "weight": 1.3, "half_life_h": 96 },
+    { "id": "ifanr", "type": "rss", "label": "爱范儿",
+      "url": "https://www.ifanr.com/feed",
+      "enabled": true, "limit": 15, "weight": 0.9, "half_life_h": 36 }
   ],
   "keywords": {
     "boost": [
-      "副业", "独立开发", "个人开发", "solo", "indie", "indie hacker", "maker",
-      "bootstrapped", "side project", "自动化", "automation", "月入", "赚钱",
-      "收入", "变现", "收款", "接单", "自由职业", "freelance", "客户", "客单价",
-      "出海", "套利", "revenue", "mrr", "arr", "profit", "pricing", "saas",
-      "subscription", "newsletter", "付费", "订阅", "买断", "shopify", "stripe",
-      "paypal", "creator", "launch", "发布", "上线", "ai", "gpt", "llm", "agent",
-      "插件", "plugin", "chrome extension", "api"
+      "副业", "搞钱", "变现", "接单", "私活", "外包", "个体户", "一人公司",
+      "小生意", "开店", "店铺", "选品", "货源", "供应链", "代运营", "代发",
+      "闲鱼", "小红书", "抖音", "视频号", "公众号", "私域", "引流", "涨粉",
+      "社群", "会员", "订阅", "付费", "知识付费", "课程", "模板", "工具",
+      "插件", "自动化", "效率", "智能体", "ai", "月入", "收入", "利润",
+      "客单价", "涨价", "赚", "生意", "创业", "自由职业", "接私活", "跑通"
     ],
     "block": [
-      "招聘", "hiring", "求职", "we are hiring", "gta", "game", "游戏", "steam",
-      "emulator", "模拟器", "rom", "crack", "破解", "wallpaper", "壁纸", "nsfw",
-      "meme", "leak", "leaked", "torrent", "盗版", "外挂", "ask hn", "tell hn",
-      "font", "字体", "kernel", "内核", "compiler", "编译器", "rust", "benchmark",
-      "跑分", "arxiv", "论文", "面试", "leetcode", "security advisory", "cve"
+      "招聘", "求职", "简历", "裁员", "破产", "清算", "车祸", "事故",
+      "明星", "综艺", "影视", "剧集", "游戏", "彩票", "股价", "涨停",
+      "评测", "跑分", "论文", "arxiv", "cve", "漏洞", "内核", "编译器",
+      "发布会", "新品", "开箱", "壁纸", "破解", "外挂", "盗版"
     ],
-    "boost_per_hit": 0.2,
-    "max_boost": 1.0
+    "boost_per_hit": 0.22,
+    "max_boost": 1.1
   },
   "render": {
-    "free_items": 4,
-    "paid_items": 8,
-    "summary_max_chars": 150,
-    "min_score": 0.25
+    "free_items": 3,
+    "paid_items": 6,
+    "summary_max_chars": 200,
+    "min_score": 0.5
   },
   "monetize": {
-    "price_cny": 9.9,
-    "buy_url": "https://afdian.com/a/sidehustleradar",
-    "contact": "爱发电私信 afdian.com/a/sidehustleradar",
-    "affiliates": [
-      {
-        "label": "副业雷达 · 付费会员（每天 15+ 条完整情报）",
-        "url": "https://afdian.com/a/sidehustleradar",
-        "note": "自营"
-      }
-    ]
+    "price_cny": 39,
+    "buy_url": "#",
+    "contact": "微信：改成你的微信号",
+    "affiliates": []
   },
   "publish": {
     "out_dir": "site",
