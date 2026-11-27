@@ -1,38 +1,31 @@
 {
-  "site": "副业雷达 / SideHustle Radar",
-  "issue": 3,
+  "site": "搞钱雷达",
+  "issue": 4,
   "day": "2026-11-27",
-  "generated_at": 1795753749,
+  "generated_at": 1795789590,
   "free": [
     {
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 6.4312
+      "title": "免登录 AI 图生图工具站，支持局部改图和 4K 放大",
+      "url": "https://www.v2ex.com/t/1260403",
+      "summary": "一位开发者在 V2EX 分享了自己做的 AI 图生图工具站，免登录即可试用，支持局部改图、老房改造效果图、像素画生成和 4K 放大。作者没有透露具体收入，但这类工具站通常靠免费试用引流，再引导用户付费解锁高清导出或批量处理。",
+      "source": "V2EX · 分享创造",
+      "score": 4.5314
     },
     {
-      "title": "Hard Drive pricing has gotten bad",
-      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 6.1523
+      "title": "离音播放器更新，送永久会员码",
+      "url": "https://www.v2ex.com/t/1259300",
+      "summary": "开发者更新了纯本地音乐播放器离音 1.7.4，适配 iPhone Duo，支持 iPhone、iPad 和 Apple 芯片 Mac，无广告无订阅无追踪，可 Wi-Fi 拖歌，支持 APE、FLAC、DSD 和 10 段均衡器，并在帖子里送永久会员码。这类买断制工具靠口碑和会员码裂变获客。",
+      "source": "V2EX · 分享创造",
+      "score": 4.5198
     },
     {
-      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
-      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 5.1796
-    },
-    {
-      "title": "Google will show solo Android developers' phone numbers and addresses",
-      "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 5.0891
+      "title": "Casdoor 支持从 Keycloak、Auth0、Okta 迁移",
+      "url": "https://www.v2ex.com/t/1260446",
+      "summary": "开源身份认证项目 Casdoor 发布月度进展：现在支持从 Keycloak、Auth0、Okta 迁移用户体系，AI Agent 也能通过 MCP 协议来管理权限。对企业客户来说，迁移工具能降低替换商业认证服务的门槛，项目方通常靠企业版和技术支持收费。",
+      "source": "V2EX · 分享创造",
+      "score": 4.1939
     }
   ],
-  "paid_count": 7,
-  "subscribe": "https://afdian.com/a/sidehustleradar"
+  "paid_count": 6,
+  "subscribe": "#"
 }
