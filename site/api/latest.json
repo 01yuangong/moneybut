@@ -1,38 +1,38 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 4,
-  "day": "2026-11-26",
-  "generated_at": 1795703341,
+  "issue": 5,
+  "day": "2026-11-27",
+  "generated_at": 1795738858,
   "free": [
     {
-      "title": "离音 1.7.4 更新适配 iPhone Duo 一个纯本地的音乐播放器（ iPhone / iPad / Apple 芯片 Mac）无内嵌广告、无订阅、无追踪，Wi-Fi 拖歌、APE/FLAC/DSD 10 段均衡器，送一波永久会员码",
-      "url": "https://www.v2ex.com/t/1259300",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
       "summary": "",
-      "source": "V2EX 分享创造",
-      "score": 3.1446
+      "source": "Hacker News",
+      "score": 6.7044
     },
     {
-      "title": "最近顺手弄了个类 toby 的浏览器书签、标签页管理插件",
-      "url": "https://www.v2ex.com/t/1260141",
+      "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into",
       "summary": "",
-      "source": "V2EX 分享创造",
-      "score": 3.1246
+      "source": "Hacker News",
+      "score": 4.1698
     },
     {
-      "title": "最近在研究土豆姐的 pstack 和 Agent 工程理论，顺手做了个 6 章互动图解网页",
-      "url": "https://www.v2ex.com/t/1260106",
+      "title": "OpenAI may be in cost control mode",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode",
       "summary": "",
-      "source": "V2EX 分享创造",
-      "score": 3.0096
+      "source": "Hacker News",
+      "score": 4.0749
     },
     {
-      "title": "推特热榜和德州，摸鱼新姿势，让 Agent 和你一起打牌。",
-      "url": "https://www.v2ex.com/t/1260044",
+      "title": "Top-cited AI scientists at four US companies compared",
+      "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies",
       "summary": "",
-      "source": "V2EX 分享创造",
-      "score": 2.9781
+      "source": "Hacker News",
+      "score": 3.8817
     }
   ],
-  "paid_count": 5,
+  "paid_count": 6,
   "subscribe": "https://afdian.com/a/sidehustleradar"
 }
