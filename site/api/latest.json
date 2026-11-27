@@ -1,38 +1,38 @@
 {
   "site": "副业雷达 / SideHustle Radar",
-  "issue": 7,
+  "issue": 8,
   "day": "2026-11-27",
-  "generated_at": 1795747884,
+  "generated_at": 1795749002,
   "free": [
     {
-      "title": "Hard Drive pricing has gotten bad",
-      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 4.5424
+      "title": "OpenHarness – Build customizable agents as single-binary, OpenAI-compatible APIs",
+      "url": "https://openharness.prakhargurunani.com",
+      "summary": "Article URL: https://openharness.prakhargurunani.com Comments URL: https://news.ycombinator.com/item?id=50661000 Points: 3 # Comments: 3",
+      "source": "HN · 赚钱关键词",
+      "score": 4.8383
     },
     {
-      "title": "PinShell：一款写给 AI 的趣应用",
-      "url": "https://www.v2ex.com/t/1260191",
-      "summary": "",
-      "source": "V2EX 分享创造",
-      "score": 3.0258
+      "title": "The Last Boring Slide",
+      "url": "https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah",
+      "summary": "Article URL: https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah Comments URL: https://news.ycombinator.com/item?id=50661613 Points: 1 # Comments: 1",
+      "source": "HN · 赚钱关键词",
+      "score": 3.775
     },
     {
-      "title": "最近 Antigravity 重置太频繁了，于是我上线了一个 Agy Reset 重置信号监测站，让你不错过每一次重置，且本贴随楼抽 50 位评论者每位赠送 50$V2EX",
-      "url": "https://www.v2ex.com/t/1260187",
-      "summary": "",
-      "source": "V2EX 分享创造",
-      "score": 2.5045
+      "title": "Show HN: I Built 90s Style Low Cost Ads Concept with Rotate Ad Exchange",
+      "url": "https://rotate.ad",
+      "summary": "Heyy HN community, Many of you heard Ad4Ad or You show my ad i show your ad type of barter ad system!…",
+      "source": "HN · 赚钱关键词",
+      "score": 3.4528
     },
     {
-      "title": "Curiosity Is No Solo Act",
-      "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act",
-      "summary": "",
-      "source": "Hacker News",
-      "score": 0.9607
+      "title": "How I Made Mezo's Documentation Agent-Ready",
+      "url": "https://0xdezman.cv/blog/how-i-made-mezo-documentation-agent-ready",
+      "summary": "Article URL: https://0xdezman. cv/blog/how-i-made-mezo-documentation-agent-ready/ Comments URL: https://news. ycombinator. com/item?…",
+      "source": "HN · 赚钱关键词",
+      "score": 3.2564
     }
   ],
-  "paid_count": 0,
+  "paid_count": 2,
   "subscribe": "https://afdian.com/a/sidehustleradar"
 }
