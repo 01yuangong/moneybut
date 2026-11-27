@@ -120,6 +120,9 @@ def llm_polish(items: list[dict], cfg: dict) -> list[dict]:
     except Exception as e:  # noqa: BLE001
         if items:
             items[0].setdefault("_llm_error", f"{type(e).__name__}: {e}")
+
+    # 把 AI 判定「没有变现路径」的条目直接丢掉，宁可少，不要凑数
+    items = [it for it in items if "暂无变现路径" not in (it.get("comment") or "")]
     return items
 
 
