@@ -87,7 +87,10 @@ def llm_polish(items: list[dict], cfg: dict) -> list[dict]:
                 "why（它靠什么赚钱，必须是具体的钱从谁口袋来，不超过 28 个汉字）、"
                 "how（普通人今天就能做的一个具体动作，要写清在哪个平台、做什么，不超过 28 个汉字）、"
                 "hard（难度，只能是 低 / 中 / 高 三个字之一）。"
-                "判断不了赚钱方式时，why 写「暂无变现路径」、hard 写「高」。"
+                "规则：素材只要是工具、项目、技术、产品、创业相关，即使作者没提钱，"
+                "也必须给出一个最可能的中文变现方式（做成付费工具、接定制、卖模板、"
+                "做内容引流、代理分销等），不许偷懒；"
+                "只有政治、灾难、娱乐八卦、纯学术这类与赚钱完全无关的，why 才写「暂无变现路径」。"
                 "只输出 JSON，不要任何解释。"},
             {"role": "user", "content": "输出 JSON 数组，每项 {\"i\":序号,\"why\":\"...\",\"how\":\"...\",\"hard\":\"...\"}：\n"
                                         + json.dumps(rows, ensure_ascii=False)},
@@ -121,9 +124,9 @@ def llm_polish(items: list[dict], cfg: dict) -> list[dict]:
         if items:
             items[0].setdefault("_llm_error", f"{type(e).__name__}: {e}")
 
-    # 把 AI 判定「没有变现路径」的条目直接丢掉，宁可少，不要凑数
-    items = [it for it in items if "暂无变现路径" not in (it.get("comment") or "")]
-    return items
+    # 把 AI 判定「没有变现路径」的条目丢掉；但如果全被丢光，回退成原列表，绝不出空刊
+    kept = [it for it in items if "暂无变现路径" not in (it.get("comment") or "")]
+    return kept or items
 
 
 def build_candidates(raw_items: list[dict], cfg: dict, known_titles: list[str]) -> list[dict]:
