@@ -243,7 +243,7 @@ def feed_xml(cfg: dict, issues: list[dict], items_by_issue: dict[int, list[dict]
     return '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>' + name + '</title></channel></rss>'
 
     def latest_json(cfg: dict, issue: dict, items_free: list[dict], paid_count: int) -> str:
-    return json.dumps({
+        return json.dumps({
         "site": cfg["site"]["name"],
         "issue": issue["issue_no"],
         "day": issue["day"],
