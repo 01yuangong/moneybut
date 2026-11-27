@@ -17,6 +17,16 @@
       "half_life_h": 18
     },
     {
+      "id": "hn_money",
+      "type": "rss",
+      "label": "HN · 赚钱关键词",
+      "url": "https://hnrss.org/newest?q=MRR+OR+revenue+OR+%22side+project%22+OR+%22paying+customers%22+OR+%22I+built%22",
+      "enabled": true,
+      "limit": 25,
+      "weight": 1.5,
+      "half_life_h": 30
+    },
+    {
       "id": "reddit_sideproject",
       "type": "reddit",
       "label": "r/SideProject",
@@ -89,9 +99,9 @@
   },
   "render": {
     "free_items": 4,
-    "paid_items": 14,
+    "paid_items": 8,
     "summary_max_chars": 150,
-    "min_score": 1.2
+    "min_score": 0.9
   },
   "monetize": {
     "price_cny": 9.9,
@@ -111,9 +121,9 @@
     "issue_slug_prefix": "issue"
   },
   "llm": {
-    "enabled": false,
-    "base_url": "https://api.openai.com/v1",
-    "model": "gpt-4o-mini",
-    "api_key_env": "OPENAI_API_KEY"
+    "enabled": true,
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY"
   }
 }
