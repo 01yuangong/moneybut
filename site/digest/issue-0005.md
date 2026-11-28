@@ -1,20 +1,15 @@
-# 副业雷达 / SideHustle Radar · 第0005期（2026-11-27）
+# 搞钱雷达 · 第0005期（2026-11-28）
+**1. AIDOU：能打电话的AI分身**
+> V2EX 用户发布 AIDOU，定位是「AI-Duo」，一个能打电话、懂你的 AI 分身，主打语音通话场景，让 AI 以分身形式替用户接打电话、陪聊。作者在论坛发帖征集体验和反馈，属于个人开发者做的小工具产品，目前未提收费，靠社区曝光获客。 ｜ 想尝鲜AI语音的普通用户和开发者 ｜ 第一步：在V2EX发帖引流，微信建群收体验反馈 ｜ 难度中
+> 来源：V2EX · 分享创造 · <https://www.v2ex.com/t/1258994>
 
-**1. AI made self-hosting fun again**
-> （原文无摘要，点链接看原帖）
-> 来源：Hacker News · <https://janlukas.blog/posts/ai-self-hosting>
+**2. 自制MAGI-2 AI视频生成器**
+> 有开发者在 V2EX 发布自制的 MAGI-2 AI 视频生成器，把视频生成能力做成可用的工具产品，发帖介绍功能并邀请试用。属于个人或小团队做的 AI 工具，靠论坛流量获取早期用户，后续可走订阅或按次生成收费。 ｜ 需要批量做短视频的创作者和小商家 ｜ 第一步：在V2EX发帖引流，微信社群收付费用户 ｜ 难度高
+> 来源：V2EX · 分享创造 · <https://www.v2ex.com/t/1260473>
 
-**2. Notion's official MCP inject hidden upsell instructions into agent context**
-> （原文无摘要，点链接看原帖）
-> 来源：Hacker News · <https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into>
-
-**3. OpenAI may be in cost control mode**
-> （原文无摘要，点链接看原帖）
-> 来源：Hacker News · <https://micjm.com/blog/openai-is-in-cost-control-mode>
-
-**4. Top-cited AI scientists at four US companies compared**
-> （原文无摘要，点链接看原帖）
-> 来源：Hacker News · <https://topcitedscientists.com/figures/ai-at-four-us-companies>
+**3. 把GitHub star变现的工具**
+> V2EX 有人做了个工具，专门把开发者积累的几千 GitHub star 利用起来，帮开源作者把项目关注度转化成实际价值，比如展示、引流或变现入口。发帖面向有 star 但不知道怎么变现的开发者，属于典型的开发者工具类小产品。 ｜ 有开源项目但不会变现的开发者 ｜ 第一步：在V2EX发帖，微信加好友做付费工具 ｜ 难度中
+> 来源：V2EX · 分享创造 · <https://www.v2ex.com/t/1260460>
 
 ---
-🔒 还有 6 条在付费版，￥9.9/月：https://afdian.com/a/sidehustleradar
+🔒 还有 6 条在完整版，￥39/月：#

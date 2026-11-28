@@ -1,29 +1,29 @@
 {
   "site": "搞钱雷达",
-  "issue": 4,
-  "day": "2026-11-27",
-  "generated_at": 1795789590,
+  "issue": 5,
+  "day": "2026-11-28",
+  "generated_at": 1795825182,
   "free": [
     {
-      "title": "免登录 AI 图生图工具站，支持局部改图和 4K 放大",
-      "url": "https://www.v2ex.com/t/1260403",
-      "summary": "一位开发者在 V2EX 分享了自己做的 AI 图生图工具站，免登录即可试用，支持局部改图、老房改造效果图、像素画生成和 4K 放大。作者没有透露具体收入，但这类工具站通常靠免费试用引流，再引导用户付费解锁高清导出或批量处理。",
+      "title": "AIDOU：能打电话的AI分身",
+      "url": "https://www.v2ex.com/t/1258994",
+      "summary": "V2EX 用户发布 AIDOU，定位是「AI-Duo」，一个能打电话、懂你的 AI 分身，主打语音通话场景，让 AI 以分身形式替用户接打电话、陪聊。作者在论坛发帖征集体验和反馈，属于个人开发者做的小工具产品，目前未提收费，靠社区曝光获客。",
       "source": "V2EX · 分享创造",
-      "score": 4.5314
+      "score": 3.7902
     },
     {
-      "title": "离音播放器更新，送永久会员码",
-      "url": "https://www.v2ex.com/t/1259300",
-      "summary": "开发者更新了纯本地音乐播放器离音 1.7.4，适配 iPhone Duo，支持 iPhone、iPad 和 Apple 芯片 Mac，无广告无订阅无追踪，可 Wi-Fi 拖歌，支持 APE、FLAC、DSD 和 10 段均衡器，并在帖子里送永久会员码。这类买断制工具靠口碑和会员码裂变获客。",
+      "title": "自制MAGI-2 AI视频生成器",
+      "url": "https://www.v2ex.com/t/1260473",
+      "summary": "有开发者在 V2EX 发布自制的 MAGI-2 AI 视频生成器，把视频生成能力做成可用的工具产品，发帖介绍功能并邀请试用。属于个人或小团队做的 AI 工具，靠论坛流量获取早期用户，后续可走订阅或按次生成收费。",
       "source": "V2EX · 分享创造",
-      "score": 4.5198
+      "score": 3.5405
     },
     {
-      "title": "Casdoor 支持从 Keycloak、Auth0、Okta 迁移",
-      "url": "https://www.v2ex.com/t/1260446",
-      "summary": "开源身份认证项目 Casdoor 发布月度进展：现在支持从 Keycloak、Auth0、Okta 迁移用户体系，AI Agent 也能通过 MCP 协议来管理权限。对企业客户来说，迁移工具能降低替换商业认证服务的门槛，项目方通常靠企业版和技术支持收费。",
+      "title": "把GitHub star变现的工具",
+      "url": "https://www.v2ex.com/t/1260460",
+      "summary": "V2EX 有人做了个工具，专门把开发者积累的几千 GitHub star 利用起来，帮开源作者把项目关注度转化成实际价值，比如展示、引流或变现入口。发帖面向有 star 但不知道怎么变现的开发者，属于典型的开发者工具类小产品。",
       "source": "V2EX · 分享创造",
-      "score": 4.1939
+      "score": 3.4537
     }
   ],
   "paid_count": 6,
